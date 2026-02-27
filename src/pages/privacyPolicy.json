@@ -1,0 +1,547 @@
+{
+    "versao": "1.1",
+    "ultimaAtualizacao": "26/06/2025",
+    "titulo": "Política de Privacidade",
+    "secoes": [
+        {
+            "titulo": "📌 1. Política de Privacidade – Aposta Premia",
+            "id": "privacy-policy",
+            "ultimaAtualizacao": "26/06/2025",
+            "conteudo": [
+                {
+                    "subtitulo": "Introdução",
+                    "descricao": "Estamos comprometidos com a proteção da sua privacidade e dos seus dados pessoais. Esta política explica como coletamos, armazenamos, processamos e protegemos suas informações pessoais, em conformidade com a legislação vigente."
+                },
+                {
+                    "subtitulo": "Coleta de Dados",
+                    "subsconteudo": [
+                        {
+                            "subtitulo": "Dados Coletados Diretamente",
+                            "lista": [
+                                "Nome completo",
+                                "CPF",
+                                "E-mail",
+                                "Data de nascimento",
+                                "Informações de contato",
+                                "Nome de usuário",
+                                "Senha da conta",
+                                "Acessos",
+                                "Páginas visitadas",
+                                "Interações",
+                                "Saldo de cashback",
+                                "Movimentações de pontos",
+                                "Histórico de recompensas",
+                                "Endereço IP",
+                                "Localização aproximada",
+                                "Tipo de dispositivo",
+                                "Navegador"
+                            ]
+                        },
+                        {
+                            "subtitulo": "Dados Recebidos de Parceiros",
+                            "lista": [
+                                "Detalhes de transações financeiras",
+                                "Histórico de jogos e apostas"
+                            ]
+                        },
+                        {
+                            "subtitulo": "Compartilhamento com Parceiros",
+                            "descricao": "Não compartilhamos suas informações pessoais com parceiros terceiros."
+                        }
+                    ]
+                },
+                {
+                    "subtitulo": "Finalidade da Coleta",
+                    "listaOrdenada": [
+                        "Calcular e creditar cashback.",
+                        "Gerenciar sua conta e permitir o uso da plataforma.",
+                        "Personalizar ofertas promocionais.",
+                        "Realizar campanhas de marketing e retargeting.",
+                        "Verificar transações e atividades.",
+                        "Cumprir requisitos regulatórios e prevenir fraudes.",
+                        "Oferecer suporte ao cliente.",
+                        "Comunicar atualizações importantes.",
+                        "Cumprir obrigações legais."
+                    ]
+                },
+                {
+                    "subtitulo": "Compartilhamento de Dados",
+                    "subsconteudo": [
+                        {
+                            "subtitulo": "Política Geral",
+                            "descricao": "Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros para fins de marketing próprios."
+                        },
+                        {
+                            "subtitulo": "Dados de Parceiros",
+                            "descricao": "Recebemos e armazenamos dados fornecidos por parceiros exclusivamente para cálculo do cashback e propósitos relacionados."
+                        },
+                        {
+                            "subtitulo": "Prestadores de Serviços",
+                            "descricao": "Podemos compartilhar dados com prestadores terceirizados para apoiar operações, marketing, pagamentos, análises ou conformidade legal, sob acordos de confidencialidade."
+                        }
+                    ]
+                },
+                {
+                    "subtitulo": "Armazenamento e Segurança",
+                    "lista": [
+                        "Criptografia das transferências e armazenamento de dados.",
+                        "Servidores seguros e bases de dados com acesso restrito.",
+                        "Auditorias periódicas de segurança e treinamento da equipe."
+                    ],
+                    "nota": "Nenhum método de transferência ou armazenamento pode garantir segurança absoluta."
+                },
+                {
+                    "subtitulo": "Retenção dos Dados",
+                    "lista": [
+                        "Durante o período em que a conta estiver ativa.",
+                        "Período adicional exigido por obrigações legais."
+                    ],
+                    "nota": "Dados de contas inativas podem ser apagados ou anonimizados após 12 meses de inatividade, sujeito a requisitos legais."
+                },
+                {
+                    "subtitulo": "Seus Direitos",
+                    "descricao": "Você possui direitos específicos relacionados aos seus dados pessoais.",
+                    "lista": [
+                        "Acesso: Solicitar cópia dos dados pessoais.",
+                        "Correção: Solicitar correções ou atualizações.",
+                        "Exclusão ou Anonimização: Solicitar exclusão ou anonimização, dentro dos limites legais.",
+                        "Revogação de Consentimento: Retirar consentimento a qualquer momento."
+                    ],
+                    "contato": "privacidade@apostapremia.com.br"
+                },
+                {
+                    "subtitulo": "Links de Terceiros",
+                    "descricao": "A plataforma pode incluir links para sites externos. Não somos responsáveis pelas práticas de privacidade desses sites. Recomendamos revisar suas políticas."
+                },
+                {
+                    "subtitulo": "Privacidade de Menores",
+                    "descricao": "Serviços destinados apenas a maiores de 18 anos. Dados de menores, se coletados, serão apagados imediatamente."
+                },
+                {
+                    "subtitulo": "Atualizações na Política",
+                    "descricao": "Esta política pode ser atualizada periodicamente. Mudanças significativas serão comunicadas por notificações ou e-mail."
+                },
+                {
+                    "subtitulo": "Resolução de Disputas",
+                    "descricao": "Disputas deverão ser resolvidas inicialmente por contato direto. Caso não resolvidas, serão submetidas à arbitragem obrigatória."
+                },
+                {
+                    "subtitulo": "Informações de Contato",
+                    "contatos": [
+                        {
+                            "tipo": "E-mail",
+                            "valor": "privacidade@apostapremia.com.br"
+                        },
+                        {
+                            "tipo": "Endereço",
+                            "valor": "CEA II - Alameda Araguaia, 2190 Sala 410 - Tamboré - Alphaville, Barueri - São Paulo, Brasil"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "📌 2. Termos e Condições de Uso – Aposta Premia",
+            "id": "terms-of-use",
+            "ultimaAtualizacao": "Junho de 2025",
+            "conteudo": [
+                "Ao se cadastrar e utilizar o Aposta Premia, você concorda expressamente com estes Termos e Condições. Caso discorde, pedimos que não utilize nossos serviços.",
+                {
+                    "subtitulo": "1. Sobre a Plataforma",
+                    "descricao": "O Aposta Premia é uma plataforma de fidelidade que oferece cashback e recompensas com base no uso real de serviços de apostas legalizadas (cassinos, loterias, rifas e apostas esportivas) por meio de parcerias e rastreamento de comprovantes ou APIs. Não operamos apostas diretamente."
+                },
+                {
+                    "subtitulo": "2. Programa de Cashback",
+                    "descricao": "O cashback é calculado com base nos dados de jogo e transações recebidos dos nossos parceiros terceiros (cassinos, loterias e apostas esportivas). O cashback será automaticamente creditado na sua conta no dia seguinte às atividades realizadas. Devido às diferenças nos fusos horários e horários de fechamento diários dos parceiros, eventuais atrasos (até 24-48 horas) podem ocorrer. As taxas, termos e ofertas do cashback podem ser atualizados ou retirados a nosso exclusivo critério, sem aviso prévio."
+                },
+                {
+                    "subtitulo": "3. Requisitos para Uso",
+                    "lista": [
+                        "Ser maior de 18 anos",
+                        "Informar dados verdadeiros e atualizados",
+                        "Aceitar os Termos e Políticas"
+                    ]
+                },
+                {
+                    "subtitulo": "4. Responsabilidades do Usuário",
+                    "lista": [
+                        "Utilizar a plataforma de forma ética e legal",
+                        "Não criar múltiplas contas ou fraudar o sistema",
+                        "Responsabilizar-se pelo uso do cashback e recompensas"
+                    ]
+                },
+                {
+                    "subtitulo": "5. Regras de Recompensa",
+                    "descricao": "O acúmulo de recompensas depende de comprovação válida do uso de serviços parceiros. O Aposta Premia pode alterar a política de pontuação ou resgate a qualquer momento, mediante aviso prévio. A plataforma pode solicitar validações adicionais."
+                },
+                {
+                    "subtitulo": "6. Precisão dos Dados e Ajustes",
+                    "descricao": "Fazemos esforços razoáveis para garantir a precisão dos cálculos, mas dependemos dos dados fornecidos pelos parceiros. Você reconhece que erros ou atrasos nos dados podem ocorrer. Reservamos o direito de ajustar retroativamente valores de cashback caso recebamos correções ou atualizações dos parceiros. Não seremos responsabilizados por discrepâncias causadas por dados incorretos ou atrasados fornecidos por parceiros."
+                },
+                {
+                    "subtitulo": "7. Contestações Relacionadas ao Cashback",
+                    "descricao": "Caso você identifique algum erro no cálculo do cashback, deverá informar nosso suporte ao cliente dentro de 14 dias corridos após a data do crédito do cashback. Investigaremos as reclamações e responderemos em prazo razoável. Decisões tomadas após investigação são finais e vinculantes."
+                },
+                {
+                    "subtitulo": "8. Proteção Contra Fraudes e Abuso",
+                    "descricao": "Reservamos o direito de tomar medidas necessárias — incluindo suspender ou fechar permanentemente contas — caso exista suspeita razoável de fraude, abuso, manipulação ou uso não autorizado da plataforma, incluindo:",
+                    "lista": [
+                        "Criação de múltiplas contas.",
+                        "Tentativa de obter cashback através de métodos fraudulentos ou automatizados.",
+                        "Exploração de falhas ou bugs técnicos para obter vantagens indevidas.",
+                        "Atividades de lavagem de dinheiro ou outras práticas ilegais."
+                    ],
+                    "nota": "Em casos de fraude ou abuso, o cashback pendente será perdido, podendo ser reportado às autoridades competentes."
+                },
+                {
+                    "subtitulo": "9. Direito de Encerrar ou Suspender Contas",
+                    "descricao": "Reservamos o direito de suspender, limitar ou encerrar permanentemente qualquer conta de usuário, a nosso critério, sem aviso prévio, caso seja constatado:",
+                    "lista": [
+                        "Violação destes Termos ou outras regras aplicáveis.",
+                        "Comportamento fraudulento ou abusivo.",
+                        "Inatividade superior a 12 meses (saldos de cashback em contas inativas poderão expirar).",
+                        "Impacto negativo sobre nossos negócios, reputação ou serviços."
+                    ],
+                    "nota": "Saldos acumulados em contas encerradas por violações poderão ser integralmente perdidos."
+                }
+            ]
+        },
+        {
+            "titulo": "📌 3. Política de Cookies – Aposta Premia",
+            "id": "policy-of-cookies",
+            "conteudo": [
+                {
+                    "subtitulo": "1. O que são cookies?",
+                    "conteudo": "Cookies são pequenos arquivos armazenados em seu navegador que permitem melhorar sua experiência de navegação, entender seu comportamento e personalizar conteúdos e anúncios."
+                },
+                {
+                    "subtitulo": "2. Tipos de Cookies Utilizados",
+                    "lista": [
+                        "Essenciais: Necessários para o funcionamento da plataforma",
+                        "Analíticos: Usados para entender padrões de uso (ex: Google Analytics)",
+                        "Funcionais: Memorizam preferências e ações anteriores",
+                        "Marketing: Usados para apresentar ofertas e campanhas relevantes"
+                    ]
+                },
+                {
+                    "subtitulo": "3. Como Gerenciar Cookies",
+                    "conteudo": "Você pode gerenciar ou desativar cookies diretamente no seu navegador. Porém, ao desativá-los, algumas funcionalidades da plataforma poderão ser prejudicadas."
+                }
+            ],
+            "contato": "contato@apostapremia.com.br"
+        },
+        {
+            "titulo": "📌 4. Política de Jogo Responsável",
+            "id": "responsible-gaming-policy",
+            "versao": "1.0",
+            "ultimaAtualizacao": "Atualizada em conformidade com a Portaria SPA/MF nº 1.231, de 31 de julho de 2024 (https://www.in.gov.br/en/web/dou/-/portaria-spa/mf-n-1.231-de-31-de-julho-de-2024-575670297)",
+            "descricao": "O Aposta Premia, por meio deste documento, estabelece sua Política de Jogo Responsável, em consonância com a legislação brasileira vigente, em especial a Portaria SPA/MF nº 1.231/2024 (https://www.in.gov.br/en/web/dou/-/portaria-spa/mf-n-1.231-de-31-de-julho-de-2024-575670297), que trata das regras e diretrizes para a promoção do jogo responsável, prevenção ao transtorno do jogo patológico (ludopatia) e à publicidade abusiva no setor de apostas de quota fixa. O Aposta Premia é uma plataforma de recompensas que coloca o usuário em primeiro lugar. Apostar deve ser uma escolha consciente, nunca uma dependência.",
+            "definicoes": [
+                {
+                    "termo": "Jogo Responsável",
+                    "definicao": "Conjunto de regras e práticas que garantem exploração saudável da modalidade e a prevenção de danos físicos, mentais, financeiros e sociais."
+                },
+                {
+                    "termo": "Jogo Problemático",
+                    "definicao": "Caracterizado por excesso, tentativa de recuperação de perdas, negligência de responsabilidades e impacto negativo na vida pessoal."
+                }
+            ],
+            "conteudo": [
+                {
+                    "subtitulo": "1. Finalidade",
+                    "conteudo": "Assegurar que os usuários da plataforma Aposta Premia utilizem os serviços de forma consciente, segura e responsável, ainda que a plataforma não opere jogos ou apostas diretamente, mas atue como programa de recompensas vinculado ao consumo em casas de apostas, loterias, rifas e jogos legalizados."
+                },
+                {
+                    "subtitulo": "2. Público-alvo",
+                    "conteudo": "A utilização da plataforma é restrita a pessoas maiores de 18 anos, plenamente capazes nos termos da legislação civil brasileira. O cadastro e a permanência de menores de idade na plataforma são expressamente vedados, sendo passível de exclusão imediata do cadastro e perda de eventuais benefícios acumulados."
+                },
+                {
+                    "subtitulo": "3. Compromissos da Plataforma",
+                    "lista": [
+                        "Promover medidas de educação e conscientização sobre o jogo responsável;",
+                        "Adotar mecanismos de autolimitação voluntária e autoexclusão mediante solicitação do usuário;",
+                        "Prevenir e restringir qualquer forma de publicidade abusiva ou enganosa, especialmente aquela direcionada a grupos vulneráveis;",
+                        "Monitorar comportamentos potencialmente abusivos no uso da plataforma e, se necessário, intervir proativamente para preservar a saúde mental e o bem-estar dos usuários;",
+                        "Garantir transparência e acesso à informação, incluindo histórico de recompensas, saldo acumulado e canais de atendimento."
+                    ]
+                },
+                {
+                    "subtitulo": "4. Condutas Proibidas",
+                    "lista": [
+                        "Utilizar a plataforma como instrumento de jogo compulsivo ou dependência;",
+                        "Realizar cadastro fraudulento ou com informações de terceiros, especialmente menores de idade;",
+                        "Veicular, publicar ou divulgar conteúdos com apelo a ganhos fáceis, incentivo à reposição de perdas, glamourização do jogo ou associação com sucesso pessoal;",
+                        "Praticar ou induzir qualquer conduta que infrinja as normas da Portaria 1.231/2024. (https://www.in.gov.br/en/web/dou/-/portaria-spa/mf-n-1.231-de-31-de-julho-de-2024-575670297)"
+                    ]
+                },
+                {
+                    "subtitulo": "5. Comportamentos de risco",
+                    "lista": [
+                        "Apostas consecutivas e sem pausas",
+                        "Tentativas de recuperar perdas",
+                        "Sessões muito longas",
+                        "Aumentos súbitos de valor apostado"
+                    ],
+                    "nota": "Se identificarmos padrões de risco, podemos limitar a conta temporariamente e oferecer suporte."
+                },
+                {
+                    "subtitulo": "6. Autolimitação e Autoexclusão",
+                    "conteudo": "O usuário poderá, a qualquer tempo, requerer: autoexclusão temporária ou definitiva da plataforma; limitação de acesso ou de acúmulo de recompensas; interrupção de comunicações publicitárias, notificações ou alertas personalizados. Tais medidas poderão ser solicitadas através do canal oficial de atendimento: suporte@apostapremia.com.br ou pela própria plataforma. Esses limites não são reversíveis e irrevogáveis durante o período definido. Durante esse tempo, o usuário não poderá reativar a conta. A suspensão será aplicada imediatamente após a confirmação, em conformidade com a legislação vigente."
+                },
+                {
+                    "subtitulo": "7. Comunicação Institucional",
+                    "lista": [
+                        "Inserção obrigatória do aviso “18+ Jogue com responsabilidade” em peças publicitárias;",
+                        "Clareza nas informações sobre funcionamento da plataforma;",
+                        "Ausência de qualquer mensagem que possa sugerir enriquecimento fácil, compulsão ou garantia de retorno financeiro."
+                    ]
+                },
+                {
+                    "subtitulo": "8. Apoio a Usuários",
+                    "conteudo": "O Aposta Premia encoraja seus usuários a manterem práticas saudáveis e equilibradas. Em caso de sinais de comportamento problemático, recomendamos buscar apoio junto a profissionais especializados ou entidades reconhecidas.",
+                    "recursos": [
+                        "CVV – Centro de Valorização da Vida – 188 (https://jogoresponsavel.org.br/)",
+                        "Terapia de Jogo – Gordon Moody (https://www.gamblingtherapy.org/pt-br/)",
+                        "Grupo Salvando Vidas:  (https://gruposalvandovidas.com.br/tratamento-de-viciados-em-jogos/)",
+                        "Jogadores Anônimos: (https://jogadoresanonimos.com.br/)",
+                        "Unidades de saúde básica ou CAPS da rede pública",
+                        "PRO-AMIT: (https://proamiti.com.br)",
+                        "Grupo de Estudo sobre Adições Tecnológicas: (https://dependenciadetecnologia.org)",
+                        "Laboratório Janus: pucsp.br/janus",
+                        "Sala de Apoio à Gestão Estratégica do Ministério da Saúde: (https://sage.saude.gov.br/paineis/planoCrack/lista_caps.php?output=html&)",
+                        "Programa Ambulatorial do Jogo Patológico do HCFMUSP: (11) 2661-7805 | (11) 2307-78052 proamjo.secretaria@gmail.com",
+                        "Associação Viver Bem: (11) 2307-7804 contato@associacaoviverbem.org.br",
+                        "PROAD UNIFESP: (11) 5579-1543 | (11) 94147-0763 (https://mpm_fto@uol.com.br)",
+                        "Santa Casa de Misericórdia RJ: (21) 2533-0118"
+                    ],
+                    "contato": "jogoresponsavel@apostapremia.com.br"
+                },
+                {
+                    "subtitulo": "9. Proteção a grupos vulneráveis",
+                    "conteudo": "Apenas maiores de 18 anos podem se cadastrar e usar a plataforma. Verificações de idade são obrigatórias durante o cadastro e transações. Usuários acima de 60 anos de idade são permitidos na plataforma, porém, rigidamente controlados e observados seus comportamentos. Também restringimos o acesso de beneficiários de programas sociais governamentais, bloqueando ou limitando preventivamente o uso da conta."
+                },
+                {
+                    "subtitulo": "10. Ferramentas de Autocontrole Disponíveis",
+                    "ferramentas": [
+                        {
+                            "nome": "🔒 Autoexclusão",
+                            "descricao": "Bloqueio da conta por tempo determinado"
+                        },
+                        {
+                            "nome": "⏱️ Limite de tempo",
+                            "descricao": "Limite de duração diária de sessão"
+                        },
+                        {
+                            "nome": "💰 Limite de depósito",
+                            "descricao": "Valor máximo permitido por período"
+                        },
+                        {
+                            "nome": "📊 Histórico completo",
+                            "descricao": "Registro de apostas, ganhos e perdas"
+                        },
+                        {
+                            "nome": "📉 Notificações de risco",
+                            "descricao": "Alertas sobre uso excessivo ou contínuo"
+                        }
+                    ]
+                },
+                {
+                    "subtitulo": "11. Penalidades",
+                    "lista": [
+                        "Suspensão ou exclusão da conta do usuário;",
+                        "Bloqueio de recompensas ou benefícios indevidamente obtidos;",
+                        "Comunicação às autoridades competentes, quando aplicável."
+                    ]
+                },
+                {
+                    "subtitulo": "12. Alterações",
+                    "conteudo": "O Aposta Premia reserva-se o direito de modificar, a qualquer momento, esta política, com vigência imediata após a publicação. Recomenda-se que o usuário consulte periodicamente esta seção para manter-se informado.",
+                    "contato": "suporte@apostapremia.com.br"
+                }
+            ]
+        },
+        {
+            "titulo": "📌 5. Política de Prevenção à Lavagem de Dinheiro, Financiamento do Terrorismo e Proliferação de Armas de Destruição em Massa (PLD/FTP)",
+            "id": "policy-of-anti-money-laundering",
+            "versao": "1.0",
+            "ultimaAtualizacao": "Publicada em conformidade com a Portaria MF nº 1.330/2023 (https://www.in.gov.br/en/web/dou/-/portaria-normativa-mf-n-1.330-de-26-de-outubro-de-2023-519161250)",
+            "conteudo": [
+                {
+                    "subtitulo": "1. Objetivo",
+                    "conteudo": "Esta Política estabelece princípios, diretrizes e controles internos para prevenir e combater atividades relacionadas à lavagem de dinheiro, financiamento do terrorismo e proliferação de armas de destruição em massa, conforme obrigações legais e regulatórias. O Aposta Premia, mesmo não operando apostas diretamente, é corresponsável na promoção de um ambiente seguro, íntegro e transparente, seguindo diretrizes do GAFI e melhores práticas do setor."
+                },
+                {
+                    "subtitulo": "O que é Lavagem de Dinheiro?",
+                    "conteudo": [
+                        "Lavagem de dinheiro é o processo de dar aparência de legalidade a recursos de origem ilícita. Etapas comuns:",
+                        {
+                            "lista": [
+                                "Colocação – inserção dos valores ilícitos no sistema;",
+                                "Ocultação – camuflagem da origem ilícita por meio de movimentações complexas;",
+                                "Integração – reintrodução dos valores na economia formal como recursos aparentemente legítimos."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitulo": "2. Princípios",
+                    "lista": [
+                        "Conformidade com a legislação vigente (Lei nº 9.613/1998 e Portaria MF nº 1.330/2023) (https://www.in.gov.br/en/web/dou/-/portaria-normativa-mf-n-1.330-de-26-de-outubro-de-2023-519161250)",
+                        "Prevenção proativa ao uso indevido da plataforma;",
+                        "Identificação e verificação rigorosa dos usuários;",
+                        "Monitoramento de operações suspeitas e comunicação tempestiva aos órgãos competentes;",
+                        "Treinamento contínuo da equipe em compliance e PLD/FTP."
+                    ]
+                },
+                {
+                    "subtitulo": "3. Identificação e Verificação de Usuários (KYC)",
+                    "conteudo": [
+                        "Todos os usuários devem ser maiores de 18 anos e fornecer dados verídicos e completos.",
+                        "A plataforma realiza:",
+                        {
+                            "lista": [
+                                "Verificação documental (CPF, e-mail, número de celular);",
+                                "Análise de comportamento transacional incomum;",
+                                "Cruzamento com listas de sanções nacionais e internacionais (ex: OFAC, ONU, UE);",
+                                "Recusa, suspensão ou bloqueio de contas em caso de indícios de irregularidade."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitulo": "4. Monitoramento e Análise de Atividades",
+                    "lista": [
+                        "Acúmulo atípico de recompensas;",
+                        "Padrões atípicos de uso;",
+                        "Tentativas de burlar o sistema de verificação;",
+                        "Comportamentos que indiquem riscos de PLD/FTP;",
+                        "Criação de múltiplas contas associadas a um mesmo IP;",
+                        "Indícios de manipulação de cadastros, uso de terceiros (laranjas) ou automatizações não autorizadas;",
+                        "Utilização da plataforma de forma incompatível com o perfil declarado do usuário."
+                    ]
+                },
+                {
+                    "subtitulo": "5. Comunicação de Operações Suspeitas (COAF)",
+                    "conteudo": [
+                        "Operações suspeitas são comunicadas de forma sigilosa às autoridades competentes, especialmente ao COAF, sem aviso ao usuário.",
+                        "O Aposta Premia coopera integralmente com órgãos reguladores e de investigação, fornecendo logs, documentos e relatórios quando necessário."
+                    ]
+                },
+                {
+                    "subtitulo": "6. Treinamento e Governança",
+                    "conteudo": [
+                        "Toda a equipe envolvida em operações sensíveis, tecnologia e atendimento recebe treinamentos regulares sobre PLD/FTP e compliance.",
+                        "A empresa adota estrutura de governança interna com responsáveis diretos pelo monitoramento e análise de risco.",
+                        "São implementados mecanismos automatizados de controle e revisões manuais periódicas."
+                    ]
+                },
+                {
+                    "subtitulo": "7. Penalidades e Responsabilidades",
+                    "lista": [
+                        "Encerramento imediato da conta;",
+                        "Perda de recompensas acumuladas;",
+                        "Comunicação às autoridades;",
+                        "Adoção de medidas legais e administrativas cabíveis, inclusive cíveis e penais."
+                    ]
+                },
+                {
+                    "subtitulo": "8. Sigilo, Integridade e Transparência",
+                    "conteudo": [
+                        "Todas as comunicações às autoridades são feitas de forma sigilosa, técnica e ética.",
+                        "Respeito ao direito à privacidade dos usuários não investigados, integridade dos dados e conformidade com a LGPD."
+                    ]
+                },
+                {
+                    "subtitulo": "9. Atualização e Revisão",
+                    "conteudo": "Esta Política será revisada periodicamente, especialmente em função de alterações na legislação, evolução dos riscos ou mudanças na estrutura operacional da empresa."
+                },
+                {
+                    "subtitulo": "Dúvidas, denúncias ou solicitações relacionadas à PLD/FTP?",
+                    "contato": "compliance@apostapremia.com.br"
+                }
+            ]
+        },
+        {
+            "titulo": "📌 6. Política de Compliance e Proteção de Dados (LGPD)",
+            "id": "compliance-and-data-protection-policy",
+            "versao": "1.0",
+            "ultimaAtualizacao": "Vigente a partir de junho de 2025",
+            "conteudo": [
+                {
+                    "subtitulo": "1. Objetivo",
+                    "conteudo": "Estabelecer princípios e diretrizes de compliance e proteção de dados pessoais, garantindo o cumprimento da legislação vigente, especialmente a LGPD, Lei Anticorrupção (12.846/2013) e demais normativos aplicáveis."
+                },
+                {
+                    "subtitulo": "2. Compromisso com a Integridade",
+                    "lista": [
+                        "Transparência;",
+                        "Legalidade;",
+                        "Ética nos relacionamentos;",
+                        "Respeito à privacidade dos usuários;",
+                        "Tolerância zero a fraudes, corrupção, lavagem de dinheiro e discriminação."
+                    ],
+                    "nota": "O compromisso é manter conduta íntegra e responsável perante clientes, parceiros, fornecedores, investidores e órgãos reguladores."
+                },
+                {
+                    "subtitulo": "3. Conformidade com a LGPD",
+                    "lista": [
+                        "Coleta e tratamento de dados pessoais apenas quando necessário, com finalidade legítima, informada e proporcional;",
+                        "Finalidade: tratamento de dados para obrigações contratuais, legais e melhor experiência ao usuário;",
+                        "Adequação e necessidade: solicitação apenas dos dados estritamente necessários;",
+                        "Transparência: clareza sobre o uso dos dados;",
+                        "Segurança e prevenção: medidas técnicas e administrativas para proteção;",
+                        "Não discriminação e responsabilidade: não uso discriminatório e mecanismos de auditoria e revisão."
+                    ]
+                },
+                {
+                    "subtitulo": "4. Categorias de Dados Tratados",
+                    "lista": [
+                        "Dados cadastrais: nome, e-mail, CPF, data de nascimento, endereço, telefone;",
+                        "Dados de acesso e navegação: IP, localização aproximada, tipo de dispositivo;",
+                        "Dados transacionais e de uso da plataforma: saldo de recompensas, histórico de interação;",
+                        "Dados sensíveis: somente se estritamente necessários e com consentimento específico."
+                    ]
+                },
+                {
+                    "subtitulo": "5. Direitos do Titular de Dados",
+                    "lista": [
+                        "Confirmação da existência de tratamento;",
+                        "Acesso aos dados;",
+                        "Correção de dados incompletos ou desatualizados;",
+                        "Anonimização, bloqueio ou eliminação de dados;",
+                        "Portabilidade dos dados;",
+                        "Revogação do consentimento;",
+                        "Oposição ao tratamento em caso de descumprimento da lei."
+                    ],
+                    "contato": "privacidade@apostapremia.com.br"
+                },
+                {
+                    "subtitulo": "6. Encarregado de Dados (DPO)",
+                    "conteudo": [
+                        "Responsável pelo tratamento de dados pessoais:",
+                        "Nome: [A definir]",
+                        "E-mail: privacidade@apostapremia.com.br"
+                    ]
+                },
+                {
+                    "subtitulo": "7. Treinamento e Conscientização",
+                    "conteudo": "Todos os colaboradores recebem treinamento contínuo sobre compliance, LGPD, ética e prevenção de riscos. Mantém-se cultura de privacidade e integridade, com controle interno de acessos, registros e operações críticas."
+                },
+                {
+                    "subtitulo": "8. Canal de Denúncias",
+                    "conteudo": "Canal confidencial e seguro para denúncias de condutas irregulares ou suspeitas de violação às normas desta política.",
+                    "contato": "compliance@apostapremia.com.br"
+                },
+                {
+                    "subtitulo": "9. Revisão e Atualização",
+                    "conteudo": [
+                        "Esta política será revisada periodicamente ou sempre que houver as seguintes alterações:",
+                        "Alterações legislativas relevantes;",
+                        "Mudanças no modelo de negócio da plataforma;",
+                        "Identificação de riscos ou incidentes relevantes."
+                    ]
+                }
+            ]
+        }
+    ]
+}
