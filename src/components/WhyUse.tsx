@@ -87,12 +87,7 @@ const WhyUse = () => {
       color="white"
       mt={-1}
     >
-      <Flex
-        w={"100%"}
-        px={8}
-        gap={8}
-        flexDir={{ base: "column-reverse", md1: "row" }}
-      >
+      <Flex w={"100%"} gap={8} flexDir={{ base: "column-reverse", md1: "row" }}>
         <Box w={{ base: "100%", md1: "40%" }}>
           <Box
             w={"100%"}
@@ -123,16 +118,25 @@ const WhyUse = () => {
           align={"streth"}
           spacing={{ base: 2, md1: 3, lg: 6 }}
         >
-          <Heading fontSize={{ base: "xl", md: "2xl" }} fontWeight={"900"}>
-            Por que usar o Aposta Premia?
-          </Heading>
-          <Text fontSize={{ base: "sm", md1: "md", lg: "lg" }} lineHeight={1.4}>
-            Você pode apostar e comprar cotas em qualquer lugar.{" "}
-            <b>Mas só aqui o dinheiro volta pra você!</b>
-          </Text>
-          <HStack justifyContent="start" color="white" spacing={2}>
+          <Box px={6}>
+            <Heading
+              fontSize={{ base: "xl", md: "2xl" }}
+              mb={2}
+              fontWeight={"900"}
+            >
+              Por que usar o Aposta Premia?
+            </Heading>
+            <Text
+              fontSize={{ base: "sm", md1: "md", lg: "lg" }}
+              lineHeight={1.4}
+            >
+              Você pode apostar e comprar cotas em qualquer lugar.{" "}
+              <b>Mas só aqui o dinheiro volta pra você!</b>
+            </Text>{" "}
+          </Box>
+          <HStack px={4} justifyContent="start" color="white" spacing={2}>
             <HStack
-              spacing={4}
+              spacing={2}
               w={"full"}
               h={{ base: "180px", xl: 220 }}
               py={4}
@@ -142,6 +146,11 @@ const WhyUse = () => {
                 bg="#d4d4d4"
                 color="primary"
                 borderRadius="full"
+                position={"absolute"}
+                left={2}
+                opacity={0.5}
+                mt={-5}
+                zIndex={1}
                 p={2}
                 onClick={() =>
                   setCurrentIndex((prev) =>
@@ -152,7 +161,7 @@ const WhyUse = () => {
                   )
                 }
               >
-                <LuArrowLeft size={20} />
+                <LuArrowLeft size={17} />
               </Box>
               {visibleCards.map((item) => (
                 <FlipCard
@@ -163,23 +172,27 @@ const WhyUse = () => {
                   bgColor={item.bgColor}
                   color={item.color}
                 />
-              ))}
+              ))}{" "}
+              <Box
+                as="button"
+                bg="#d4d4d4"
+                color="primary"
+                borderRadius="full"
+                p={2}
+                mt={-5}
+                position={"absolute"}
+                opacity={0.5}
+                right={2}
+                zIndex={1}
+                onClick={() =>
+                  setCurrentIndex((prev) =>
+                    prev + 2 >= whyUsedata.length ? 0 : prev + 2,
+                  )
+                }
+              >
+                <LuArrowRight size={17} />
+              </Box>
             </HStack>
-
-            <Box
-              as="button"
-              bg="#d4d4d4"
-              color="primary"
-              borderRadius="full"
-              p={2}
-              onClick={() =>
-                setCurrentIndex((prev) =>
-                  prev + 2 >= whyUsedata.length ? 0 : prev + 2,
-                )
-              }
-            >
-              <LuArrowRight size={20} />
-            </Box>
           </HStack>
         </VStack>
       </Flex>
