@@ -4,7 +4,6 @@ export { default as facebook } from "./icons/facebook.svg";
 export { default as instagram } from "./icons/instagram.svg";
 export { default as logoPrimary } from "./icons/LogoPrimary.svg";
 export { default as logoWhite } from "./icons/LogoWhite.svg";
-export { default as Security } from "./icons/Security.svg";
 export { default as soalrDiploma } from "./icons/solar_diploma-outline.svg";
 export { default as solarDollar } from "./icons/solar_dollar-minimalistic-outline.svg";
 export { default as solarHand } from "./icons/solar_hand-money-outline.svg";
