@@ -9,6 +9,7 @@ import {
   Image,
   Link,
   Divider,
+  VStack,
 } from "@chakra-ui/react";
 import Partners from "./Partners";
 import { LuArrowRight, LuArrowLeft } from "react-icons/lu";
@@ -35,17 +36,100 @@ const DATA_SECURITY = [
 const Security: React.FC = () => {
   return (
     <Box id="seguro" mx={"auto"} bg={"primary"} w={"100%"} color="white">
-      <Box p={6}>
-        <Heading fontSize={{ base: "xl", md: "2xl" }} fontWeight={"900"}>
-          É seguro?
-        </Heading>
-        <Text fontSize={"lg"} mt={2}>
-          A gente entende que você não quer colocar seu dinheiro em qualquer
-          lugar. Por isso, o Aposta Premia trabalha só com parceiros
-          regulamentados e licenciados no Brasil.
-        </Text>
+      <VStack maxW={1800} mx="auto" align={"strech"}>
+        <Box p={6}>
+          <Heading fontSize={{ base: "2xl", lg: "3xl" }} fontWeight={"900"}>
+            É seguro?
+          </Heading>
+          <Text fontSize={{ base: "md", lg: "lg" }} mt={2}>
+            A gente entende que você não quer colocar seu dinheiro em qualquer
+            lugar. Por isso, o Aposta Premia trabalha só com parceiros
+            regulamentados e licenciados no Brasil.
+          </Text>
+        </Box>
+        <Box position="relative">
+          <HStack>
+            <Box
+              as="button"
+              bg="#D9D9D9"
+              color={"primary"}
+              borderRadius="full"
+              p={2}
+              ml={6}
+              display={{ base: "block", md1: "none" }}
+              aria-label="Scroll left"
+              onClick={() => {
+                const grid = document.getElementById("security-grid");
+                if (grid) grid.scrollBy({ left: -260, behavior: "smooth" });
+              }}
+            >
+              <LuArrowLeft />
+            </Box>
+            <Box
+              as="button"
+              bg="greenTeal"
+              color={"primary"}
+              borderRadius="full"
+              p={2}
+              display={{ base: "block", md1: "none" }}
+              aria-label="Scroll right"
+              onClick={() => {
+                const grid = document.getElementById("security-grid");
+                if (grid) grid.scrollBy({ left: 260, behavior: "smooth" });
+              }}
+            >
+              <LuArrowRight />
+            </Box>
+          </HStack>
+
+          <Grid
+            id="security-grid"
+            templateColumns={"repeat(3, minmax(240px, 1fr))"}
+            overflowX={"auto"}
+            mt={6}
+            pl={6}
+            gap={{ base: 4, md1: 3 }}
+            sx={{
+              scrollbarWidth: "none",
+              "&::-webkit-scrollbar": { display: "none" },
+            }}
+          >
+            {DATA_SECURITY.map((item, idx) => (
+              <Box
+                key={idx}
+                bg={"white"}
+                mb={4}
+                borderRadius={18}
+                minW="240px"
+                mr={6}
+              >
+                <Flex
+                  bg={"greenTeal"}
+                  textAlign={"center"}
+                  alignItems={"center"}
+                  justifyContent={"center"}
+                  borderTopRadius={18}
+                  minH={"100px"}
+                  p={3}
+                >
+                  <Heading fontSize={{ base: "lg", lg: "xl" }}>
+                    {item.title}
+                  </Heading>
+                </Flex>
+                <Text
+                  p={4}
+                  textAlign={"center"}
+                  color={"primary"}
+                  fontSize={{ base: "md", lg: "lg" }}
+                >
+                  {item.description}
+                </Text>
+              </Box>
+            ))}
+          </Grid>
+        </Box>{" "}
         <Box mt={6}>
-          <Divider mx={"auto"} w={"90%"} borderWidth={1.5} opacity={1} />
+          <Divider mx={"auto"} w={"95%"} borderWidth={1.5} opacity={1} />
           <HStack
             maxW={500}
             w={{ base: "100%", md: "90vw" }}
@@ -99,83 +183,10 @@ const Security: React.FC = () => {
               </div>
             </Box>
           </HStack>
-          <Divider mx={"auto"} w={"90%"} borderWidth={1.5} opacity={1} />
+          <Divider mx={"auto"} w={"95%"} borderWidth={1.5} opacity={1} />
         </Box>
-      </Box>
-      <Box position="relative">
-        <HStack>
-          <Box
-            as="button"
-            bg="#D9D9D9"
-            color={"primary"}
-            borderRadius="full"
-            p={2}
-            ml={6}
-            display={{ base: "block", md1: "none" }}
-            aria-label="Scroll left"
-            onClick={() => {
-              const grid = document.getElementById("security-grid");
-              if (grid) grid.scrollBy({ left: -260, behavior: "smooth" });
-            }}
-          >
-            <LuArrowLeft />
-          </Box>
-          <Box
-            as="button"
-            bg="greenTeal"
-            color={"primary"}
-            borderRadius="full"
-            p={2}
-            display={{ base: "block", md1: "none" }}
-            aria-label="Scroll right"
-            onClick={() => {
-              const grid = document.getElementById("security-grid");
-              if (grid) grid.scrollBy({ left: 260, behavior: "smooth" });
-            }}
-          >
-            <LuArrowRight />
-          </Box>
-        </HStack>
+      </VStack>
 
-        <Grid
-          id="security-grid"
-          templateColumns={"repeat(3, minmax(240px, 1fr))"}
-          overflowX={"auto"}
-          mt={6}
-          pl={6}
-          gap={{ base: 4, md1: 3 }}
-          sx={{
-            scrollbarWidth: "none",
-            "&::-webkit-scrollbar": { display: "none" },
-          }}
-        >
-          {DATA_SECURITY.map((item, idx) => (
-            <Box
-              key={idx}
-              bg={"white"}
-              mb={4}
-              borderRadius={18}
-              minW="240px"
-              mr={6}
-            >
-              <Flex
-                bg={"greenTeal"}
-                textAlign={"center"}
-                alignItems={"center"}
-                justifyContent={"center"}
-                borderTopRadius={18}
-                minH={"100px"}
-                p={3}
-              >
-                <Heading fontSize={"lg"}>{item.title}</Heading>
-              </Flex>
-              <Text p={4} textAlign={"center"} color={"primary"}>
-                {item.description}
-              </Text>
-            </Box>
-          ))}
-        </Grid>
-      </Box>
       <Partners />
     </Box>
   );

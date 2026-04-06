@@ -52,9 +52,9 @@ export const TermsAndConditions: React.FC = () => {
               1. Aceitação dos Termos
             </Heading>
             <Text>
-              O uso do site app.apostapremia.com.br implica na aceitação total
-              dos presentes Termos de Uso. Caso não concorde com algum dos
-              termos, recomendamos que não utilize nossos serviços.
+              O uso do site apostapremia.com.br implica na aceitação total dos
+              presentes Termos de Uso. Caso não concorde com algum dos termos,
+              recomendamos que não utilize nossos serviços.
             </Text>
           </Box>
 

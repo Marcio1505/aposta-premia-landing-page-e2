@@ -1,13 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import {
-  Text,
-  Box,
-  Heading,
-  HStack,
-  Flex,
-  Container,
-  VStack,
-} from "@chakra-ui/react";
+import { Text, Box, Heading, HStack, Flex, VStack } from "@chakra-ui/react";
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 import { motion } from "framer-motion";
 
@@ -89,12 +81,12 @@ const HowWork: React.FC = () => {
       w={"100%"}
       overflow="hidden"
     >
-      <Container maxW="container.xl">
-        <VStack align={"stretch"} mb={4}>
-          <Heading fontSize={{ base: "xl", md: "2xl" }} fontWeight={"900"}>
+      <VStack align={"strech"} maxW={1400} mx="auto" spacing={10}>
+        <VStack align={"start"} mb={4} px={6}>
+          <Heading fontSize={{ base: "2xl", lg: "3xl" }} fontWeight={"900"}>
             Como funciona?
           </Heading>
-          <Text>
+          <Text fontSize={{ base: "md", lg: "lg" }}>
             Você participa pelos nossos parceiros e recebe parte do que gastou
             de volta.
           </Text>
@@ -122,46 +114,45 @@ const HowWork: React.FC = () => {
             </Box>
           </HStack>
         </VStack>
-      </Container>
-
-      {/* Container Principal de Scroll */}
-      <Flex
-        ref={scrollRef}
-        overflowX="auto"
-        overflowY="hidden"
-        px={6}
-        gap={4} // Espaçamento controlado pelo Flex
-        css={{
-          scrollbarWidth: "none",
-          "&::-webkit-scrollbar": { display: "none" },
-          perspective: "1200px",
-          scrollSnapType: "x mandatory", // Força o "imã" no card
-        }}
-      >
-        {HowWorkData.map((item) => (
-          <WiseCard key={item.id} item={item} />
-        ))}
-      </Flex>
-      <Text
-        whiteSpace="normal"
-        bg={"linear-gradient(45deg, #6BF0C1 0%, #3FCE9D 100%)"}
-        color={"primary"}
-        p={2}
-        px={4}
-        borderRadius={8}
-        textAlign={"center"}
-        mt={8}
-        w={"80%"}
-        mx={"auto"}
-        maxW={"550px"}
-        fontWeight={"bold"}
-        cursor={"pointer"}
-        onClick={() =>
-          (window.location.href = "https://app.apostapremia.com.br/register")
-        }
-      >
-        CADASTRE-SE E RECEBA SEU PRIMEIRO DINHEIRO DE VOLTA{" "}
-      </Text>
+        {/* Container Principal de Scroll */}
+        <Flex
+          ref={scrollRef}
+          overflowX="auto"
+          overflowY="hidden"
+          px={6}
+          gap={4} // Espaçamento controlado pelo Flex
+          css={{
+            scrollbarWidth: "none",
+            "&::-webkit-scrollbar": { display: "none" },
+            perspective: "1200px",
+            scrollSnapType: "x mandatory", // Força o "imã" no card
+          }}
+        >
+          {HowWorkData.map((item) => (
+            <WiseCard key={item.id} item={item} />
+          ))}
+        </Flex>
+        <Text
+          whiteSpace="normal"
+          bg={"linear-gradient(45deg, #6BF0C1 0%, #3FCE9D 100%)"}
+          color={"primary"}
+          p={2}
+          px={4}
+          borderRadius={8}
+          textAlign={"center"}
+          mt={8}
+          w={"80%"}
+          mx={"auto"}
+          maxW={"550px"}
+          fontWeight={"bold"}
+          cursor={"pointer"}
+          onClick={() =>
+            (window.location.href = "https://apostapremia.com.br/register")
+          }
+        >
+          CADASTRE-SE E RECEBA SEU PRIMEIRO DINHEIRO DE VOLTA{" "}
+        </Text>{" "}
+      </VStack>
     </Box>
   );
 };
@@ -207,14 +198,18 @@ const WiseCard: React.FC<{
       position="relative"
       whiteSpace="normal"
     >
-      <Text fontWeight="900" fontSize={"xl"}>
+      <Text fontWeight="900" fontSize={{ base: "xl", lg: "2xl" }}>
         {item.id}.
       </Text>
       <Box>
-        <Text fontSize="xl" color={"#99F596"} fontWeight="600">
+        <Text
+          fontSize={{ base: "xl", lg: "2xl" }}
+          color={"#99F596"}
+          fontWeight="600"
+        >
           {item.title}
         </Text>
-        <Text fontSize="lg">{item.description}</Text>
+        <Text fontSize={{ base: "md", lg: "lg" }}>{item.description}</Text>
       </Box>
     </MotionBox>
   );

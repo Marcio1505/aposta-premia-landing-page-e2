@@ -11,6 +11,7 @@ import {
   DrawerContent,
   useDisclosure,
   Divider,
+  Box,
 } from "@chakra-ui/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -46,22 +47,31 @@ const Header: React.FC = () => {
       mx={"auto"}
       w={"100%"}
     >
-      <Image
-        src={logoWhite}
-        ml={{ base: 2, md: 4 }}
-        w={{ base: 90, md1: 105 }}
-        cursor="pointer"
-        onClick={() => (window.location.href = "/")}
-      />
-      <HStack display={{ base: "flex", md1: "none" }}>
-        <IconButton
-          aria-label="Open Menu"
-          variant={"unstyled"}
-          icon={<RxHamburgerMenu size={40} />}
-          color={"white"}
-          onClick={onOpen}
-          mr={4}
+      <HStack
+        justifyContent={"space-between"}
+        w={"100%"}
+        maxW={1400}
+        mx={"auto"}
+        spacing={0}
+      >
+        <Box w={2} h={2} display={{ base: "none", md1: "flex" }} />
+        <Image
+          src={logoWhite}
+          ml={{ base: 2, md: 4 }}
+          w={{ base: 90, md1: 105 }}
+          cursor="pointer"
+          onClick={() => (window.location.href = "/")}
         />
+        <HStack display={{ base: "flex", md1: "none" }}>
+          <IconButton
+            aria-label="Open Menu"
+            variant={"unstyled"}
+            icon={<RxHamburgerMenu size={40} />}
+            color={"white"}
+            onClick={onOpen}
+            mr={4}
+          />
+        </HStack>
       </HStack>
       <Drawer placement="top" onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />

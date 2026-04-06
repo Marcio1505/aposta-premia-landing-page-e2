@@ -24,10 +24,64 @@ const Apresentation: React.FC = () => {
         position="relative"
         borderBottomRadius={30}
         mx={"auto"}
-        justifyContent={{ base: "center", md1: "start" }}
+        w={"100%"}
         pb={0}
         overflow="hidden"
       >
+        <HStack maxW={1400} w={"100%"} mx={"auto"} spacing={0}>
+          <VStack
+            maxW={700}
+            spacing={6}
+            mt={{ base: 8, md1: 20 }}
+            py={8}
+            px={{ base: 6, md1: 8 }}
+            justifyContent={{ base: "flex-end", md1: "center" }}
+            color={"white"}
+            textAlign={{ base: "center", md1: "start" }}
+            zIndex={2}
+          >
+            <Image src={heroText} display={{ base: "block", md1: "none" }} />
+
+            <Heading
+              textAlign={"start"}
+              display={{ base: "none", md1: "block" }}
+              fontSize={{ base: "2xl", md: "4xl" }}
+            >
+              Receba parte do{" "}
+              <Text display={"inline"} color={"#6BF0C1"}>
+                seu dinheiro de volta
+              </Text>{" "}
+              em cada jogada
+            </Heading>
+
+            <Text fontSize={{ base: "md", lg: "lg" }} lineHeight={1.2}>
+              <b>
+                Sorteio, cassino, aposta esportiva, não importa onde você joga.
+              </b>{" "}
+              No Aposta Premia, de 4% a 16% do que você gasta volta pra você.
+              Dinheiro de verdade, pra usar de novo ou sacar.
+            </Text>
+
+            <Text
+              whiteSpace="normal"
+              bg={"linear-gradient(45deg, #6BF0C1 0%, #3FCE9D 100%)"}
+              color={"primary"}
+              p={2}
+              px={4}
+              borderRadius={8}
+              textAlign={"center"}
+              fontWeight={"bold"}
+              cursor={"pointer"}
+              onClick={() =>
+                (window.location.href = "https://apostapremia.com.br/register")
+              }
+            >
+              FAÇA SEU CADASTRO GRATUITAMENTE
+            </Text>
+          </VStack>
+          <Box w={2} h={2} />
+        </HStack>
+
         {/* Background image with blur */}
         <Box
           position="absolute"
@@ -40,57 +94,7 @@ const Apresentation: React.FC = () => {
           bgPosition="start"
           zIndex={0}
         />
-
-        <VStack
-          spacing={6}
-          mt={{ base: 8, md1: 20 }}
-          py={8}
-          px={{ base: 6, md1: 20 }}
-          justifyContent={{ base: "flex-end", md1: "center" }}
-          color={"white"}
-          w={"100%"}
-          textAlign={{ base: "center", md1: "start" }}
-          zIndex={2}
-        >
-          <Image src={heroText} display={{ base: "block", md1: "none" }} />
-
-          <Heading display={{ base: "none", md1: "block" }}>
-            Receba parte do{" "}
-            <Text display={"inline"} color={"#6BF0C1"}>
-              seu dinheiro de volta
-            </Text>{" "}
-            em cada jogada
-          </Heading>
-
-          <Text fontSize={"md"} lineHeight={1.2}>
-            <b>
-              Sorteio, cassino, aposta esportiva, não importa onde você joga.
-            </b>{" "}
-            No Aposta Premia, de 4% a 16% do que você gasta volta pra você.
-            Dinheiro de verdade, pra usar de novo ou sacar.
-          </Text>
-
-          <Text
-            whiteSpace="normal"
-            bg={"linear-gradient(45deg, #6BF0C1 0%, #3FCE9D 100%)"}
-            color={"primary"}
-            p={2}
-            px={4}
-            borderRadius={8}
-            textAlign={"center"}
-            fontWeight={"bold"}
-            cursor={"pointer"}
-            onClick={() =>
-              (window.location.href =
-                "https://app.apostapremia.com.br/register")
-            }
-          >
-            FAÇA SEU CADASTRO GRATUITAMENTE
-          </Text>
-        </VStack>
-        <Box w={{ base: 0, md1: "50%" }} />
       </HStack>
-
       <Image
         position={"absolute"}
         zIndex={1}

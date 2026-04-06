@@ -16,7 +16,7 @@ function Home() {
       scrollBehavior={"smooth"}
     >
       <Header />
-      <Box mx={"auto"} maxW={1900} w={"100%"}>
+      <Box mx={"auto"} w={"100%"}>
         <Apresentation />
         <WhyUse />
         <HowWork />

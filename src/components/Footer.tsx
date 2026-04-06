@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
         fontSize={"md"}
         fontWeight={"black"}
         onClick={() =>
-          (window.location.href = "https://app.apostapremia.com.br/register")
+          (window.location.href = "https://apostapremia.com.br/register")
         }
       >
         CADASTRE-SE GRÁTIS

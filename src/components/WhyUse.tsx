@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import {
   aryanePremia,
-  aryanePremiaMobile,
   atendimento,
   cashback,
   graphUp,
@@ -87,136 +86,138 @@ const WhyUse = () => {
       color="white"
       mt={-1}
     >
-      <Flex w={"100%"} gap={8} flexDir={{ base: "column-reverse", md1: "row" }}>
-        <Box w={{ base: "100%", md1: "40%" }}>
-          <Box
-            w={"100%"}
-            h={"100%"}
-            borderRadius={12}
-            mb={-5}
-            bg={"#A93FFF"}
-            mt={1}
-          >
-            <Image
-              display={{ base: "none", md1: "block" }}
-              position={"relative"}
-              h={"100%"}
-              ml={-6}
-              src={aryanePremia}
-            />
-            <Image
-              display={{ base: "block", md1: "none" }}
-              position={"relative"}
-              mx={"auto"}
-              src={aryanePremiaMobile}
-            />
-          </Box>
-        </Box>
-        <VStack
-          w={{ base: "100%", md1: "60%" }}
-          mt={{ base: 0, lg: 8 }}
-          align={"streth"}
-          spacing={{ base: 2, md1: 3, lg: 6 }}
+      <VStack maxW={1450} w={"100%"} mx={"auto"}>
+        <Flex
+          w={"100%"}
+          gap={8}
+          flexDir={{ base: "column-reverse", md1: "row" }}
         >
-          <Box px={6}>
-            <Heading
-              fontSize={{ base: "xl", md: "2xl" }}
-              mb={2}
-              fontWeight={"900"}
-            >
-              Por que usar o Aposta Premia?
-            </Heading>
-            <Text
-              fontSize={{ base: "sm", md1: "md", lg: "lg" }}
-              lineHeight={1.4}
-            >
-              Você pode apostar e comprar cotas em qualquer lugar.{" "}
-              <b>Mas só aqui o dinheiro volta pra você!</b>
-            </Text>{" "}
-          </Box>
-          <HStack px={4} justifyContent="start" color="white" spacing={2}>
-            <HStack
-              spacing={2}
-              w={"full"}
-              h={{ base: "180px", xl: 220 }}
-              py={4}
-            >
-              <Box
-                as="button"
-                bg="#d4d4d4"
-                color="primary"
-                borderRadius="full"
-                position={"absolute"}
-                left={2}
-                opacity={0.5}
-                mt={-5}
-                zIndex={1}
-                p={2}
-                onClick={() =>
-                  setCurrentIndex((prev) =>
-                    prev - 2 < 0
-                      ? whyUsedata.length -
-                        (whyUsedata.length % 2 === 0 ? 2 : 1)
-                      : prev - 2,
-                  )
-                }
-              >
-                <LuArrowLeft size={17} />
-              </Box>
-              {visibleCards.map((item) => (
-                <FlipCard
-                  key={item.id}
-                  title={item.title}
-                  description={item.description}
-                  icon={item.icon}
-                  bgColor={item.bgColor}
-                  color={item.color}
-                />
-              ))}{" "}
-              <Box
-                as="button"
-                bg="#d4d4d4"
-                color="primary"
-                borderRadius="full"
-                p={2}
-                mt={-5}
-                position={"absolute"}
-                opacity={0.5}
-                right={2}
-                zIndex={1}
-                onClick={() =>
-                  setCurrentIndex((prev) =>
-                    prev + 2 >= whyUsedata.length ? 0 : prev + 2,
-                  )
-                }
-              >
-                <LuArrowRight size={17} />
-              </Box>
-            </HStack>
-          </HStack>
-        </VStack>
-      </Flex>
-      <HStack
-        spacing={2}
-        mt={-20}
-        pb={7}
-        alignSelf="center"
-        display={{ base: "none", md1: "flex" }}
-      >
-        {Array.from({ length: Math.ceil(whyUsedata.length / 2) }).map(
-          (_, idx) => (
+          <Box
+            w={{ base: "100%", md1: "40%" }}
+            maxH={"600px"}
+            maxW={"500px"}
+            ml={10}
+            position={"relative"}
+          >
             <Box
-              key={idx}
-              w={3}
-              h={3}
-              borderRadius="full"
-              bg={currentIndex / 2 === idx ? "#9FFFDD" : "gray.400"}
-              border={"white"}
-              transition="background 0.2s"
-            />
-          ),
-        )}
-      </HStack>
+              w={"100%"}
+              h={"100%"}
+              borderRadius={12}
+              mb={-5}
+              bg={"#A93FFF"}
+              mt={1}
+            >
+              <Image
+                display={{ base: "none", md1: "block" }}
+                position={"relative"}
+                h={"100%"}
+                ml={-6}
+                src={aryanePremia}
+              />
+            </Box>
+          </Box>
+          <VStack
+            w={{ base: "100%", md1: "60%" }}
+            mt={{ base: 0, lg: 8 }}
+            align={"stretch"}
+            spacing={{ base: 2, md1: 3, lg: 6 }}
+          >
+            <Box px={6}>
+              <Heading
+                fontSize={{ base: "xl", md: "2xl" }}
+                mb={2}
+                fontWeight={"900"}
+              >
+                Por que usar o Aposta Premia?
+              </Heading>
+              <Text
+                fontSize={{ base: "sm", md1: "md", lg: "lg" }}
+                lineHeight={1.4}
+              >
+                Você pode apostar e comprar cotas em qualquer lugar.{" "}
+                <b>Mas só aqui o dinheiro volta pra você!</b>
+              </Text>{" "}
+            </Box>
+            <HStack px={4} justifyContent="start" color="white" spacing={2}>
+              <HStack
+                spacing={2}
+                w={"full"}
+                h={{ base: "180px", xl: 290, "2xl": 350 }}
+                py={4}
+              >
+                <Box
+                  as="button"
+                  bg="#d4d4d4"
+                  color="primary"
+                  borderRadius="full"
+                  opacity={0.5}
+                  mt={-5}
+                  zIndex={1}
+                  p={2}
+                  onClick={() =>
+                    setCurrentIndex((prev) =>
+                      prev - 2 < 0
+                        ? whyUsedata.length -
+                          (whyUsedata.length % 2 === 0 ? 2 : 1)
+                        : prev - 2,
+                    )
+                  }
+                >
+                  <LuArrowLeft size={17} />
+                </Box>
+                {visibleCards.map((item) => (
+                  <FlipCard
+                    key={item.id}
+                    title={item.title}
+                    description={item.description}
+                    icon={item.icon}
+                    bgColor={item.bgColor}
+                    color={item.color}
+                  />
+                ))}{" "}
+                <Box
+                  as="button"
+                  bg="#d4d4d4"
+                  color="primary"
+                  borderRadius="full"
+                  p={2}
+                  mt={-5}
+                  opacity={0.5}
+                  zIndex={1}
+                  onClick={() =>
+                    setCurrentIndex((prev) =>
+                      prev + 2 >= whyUsedata.length ? 0 : prev + 2,
+                    )
+                  }
+                >
+                  <LuArrowRight size={17} />
+                </Box>
+              </HStack>
+            </HStack>
+          </VStack>
+        </Flex>
+        <HStack
+          spacing={2}
+          mt={-20}
+          pb={7}
+          alignSelf="center"
+          display={{ base: "none", md1: "flex" }}
+        >
+          {Array.from({ length: Math.ceil(whyUsedata.length / 2) }).map(
+            (_, idx) => (
+              <Box
+                key={idx}
+                w={3}
+                h={3}
+                borderRadius="full"
+                bg={currentIndex / 2 === idx ? "#9FFFDD" : "gray.400"}
+                border={"white"}
+                transition="background 0.2s"
+              />
+            ),
+          )}
+        </HStack>
+      </VStack>
     </VStack>
   );
 };
@@ -277,10 +278,19 @@ export const FlipCard = ({
           justifyContent="center"
           p={4}
         >
-          <Image src={icon} alt={title} boxSize="30px" mb={2} />
-          <Text fontWeight={600} fontSize="md" textAlign="center">
+          <Image
+            src={icon}
+            alt={title}
+            boxSize={{ base: "25px", lg: "50px" }}
+            mb={2}
+          />
+          <Heading
+            fontWeight={800}
+            fontSize={{ base: "md", lg: "lg", xl: "xl" }}
+            textAlign="center"
+          >
             {title}
-          </Text>
+          </Heading>
         </Box>
         {/* Back */}
         <Box
@@ -300,7 +310,7 @@ export const FlipCard = ({
           p={4}
           transform="rotateY(180deg)"
         >
-          <Text fontSize="sm" textAlign="center">
+          <Text fontSize={{ base: "md", lg: "lg" }} textAlign="center">
             {description}
           </Text>
         </Box>
