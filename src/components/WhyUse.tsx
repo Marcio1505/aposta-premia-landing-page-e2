@@ -101,20 +101,20 @@ const WhyUse = () => {
           >
             <Box
               w={"100%"}
-              h={"100%"}
+              h={"97%"}
+              maxH={"580px"}
+              mt={"4%"}
               borderRadius={12}
-              mb={-5}
+              position={"absolute"}
               bg={"#A93FFF"}
-              mt={1}
-            >
-              <Image
-                display={{ base: "none", md1: "block" }}
-                position={"relative"}
-                h={"100%"}
-                ml={-6}
-                src={aryanePremia}
-              />
-            </Box>
+            />
+            <Image
+              display={{ base: "none", md1: "block" }}
+              position={"relative"}
+              h={"100%"}
+              ml={-8}
+              src={aryanePremia}
+            />
           </Box>
           <VStack
             w={{ base: "100%", md1: "60%" }}
@@ -139,18 +139,13 @@ const WhyUse = () => {
               </Text>{" "}
             </Box>
             <HStack px={4} justifyContent="start" color="white" spacing={2}>
-              <HStack
-                spacing={2}
-                w={"full"}
-                h={{ base: "180px", xl: 290, "2xl": 350 }}
-                py={4}
-              >
+              <HStack spacing={2} w={"full"} py={4}>
                 <Box
                   as="button"
-                  bg="#d4d4d4"
+                  bg="#D9D9D9"
                   color="primary"
                   borderRadius="full"
-                  opacity={0.5}
+                  opacity={0.8}
                   mt={-5}
                   zIndex={1}
                   p={2}
@@ -166,23 +161,42 @@ const WhyUse = () => {
                   <LuArrowLeft size={17} />
                 </Box>
                 {visibleCards.map((item) => (
-                  <FlipCard
+                  <Box
                     key={item.id}
-                    title={item.title}
-                    description={item.description}
-                    icon={item.icon}
-                    bgColor={item.bgColor}
-                    color={item.color}
-                  />
+                    flex={1}
+                    minW={0}
+                    h={{ base: "180px", md1: 170, lg: 230, xl: 330 }}
+                    animation="slideIn 0.5s ease-in-out"
+                    sx={{
+                      "@keyframes slideIn": {
+                        from: {
+                          opacity: 0,
+                          transform: "translateX(20px)",
+                        },
+                        to: {
+                          opacity: 1,
+                          transform: "translateX(0)",
+                        },
+                      },
+                    }}
+                  >
+                    <FlipCard
+                      title={item.title}
+                      description={item.description}
+                      icon={item.icon}
+                      bgColor={item.bgColor}
+                      color={item.color}
+                    />
+                  </Box>
                 ))}{" "}
                 <Box
                   as="button"
-                  bg="#d4d4d4"
+                  bg="#D9D9D9"
                   color="primary"
                   borderRadius="full"
                   p={2}
                   mt={-5}
-                  opacity={0.5}
+                  opacity={0.8}
                   zIndex={1}
                   onClick={() =>
                     setCurrentIndex((prev) =>
@@ -210,8 +224,8 @@ const WhyUse = () => {
                 w={3}
                 h={3}
                 borderRadius="full"
-                bg={currentIndex / 2 === idx ? "#9FFFDD" : "gray.400"}
-                border={"white"}
+                bg={currentIndex / 2 === idx ? "#9FFFDD" : "#ffffff0"}
+                border={"1px solid #fffffff6"}
                 transition="background 0.2s"
               />
             ),
@@ -281,6 +295,7 @@ export const FlipCard = ({
           <Image
             src={icon}
             alt={title}
+            mt={-3}
             boxSize={{ base: "25px", lg: "50px" }}
             mb={2}
           />

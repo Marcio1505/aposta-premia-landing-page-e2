@@ -189,7 +189,7 @@ const WiseCard: React.FC<{
       initial="hidden"
       animate={isVisible ? "visible" : "hidden"}
       variants={cardVariants}
-      minW={{ base: "300px", md1: "400px" }}
+      minW={{ base: "250px", md1: "330px" }}
       h={{ base: "400px", md1: "500px" }}
       bg={"#A93FFF"}
       color={"white"}

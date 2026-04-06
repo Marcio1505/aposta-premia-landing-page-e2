@@ -9,7 +9,7 @@ const videos = [
 const WhySayAboutUs: React.FC = () => {
   return (
     <VStack bgImage={bgImage} bg={"#F4F4F4"} p={6}>
-      <VStack align={"stretch"} maxW={1400} w={"100%"} mx="auto" spacing={4}>
+      <VStack align={"stretch"} maxW={1380} w={"100%"} mx="auto" spacing={4}>
         <Heading
           fontSize={{ base: "2xl", lg: "3xl" }}
           textAlign={{ base: "center", lg: "start" }}

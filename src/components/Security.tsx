@@ -36,7 +36,7 @@ const DATA_SECURITY = [
 const Security: React.FC = () => {
   return (
     <Box id="seguro" mx={"auto"} bg={"primary"} w={"100%"} color="white">
-      <VStack maxW={1800} mx="auto" align={"strech"}>
+      <VStack maxW={1400} mx="auto" align={"strech"}>
         <Box p={6}>
           <Heading fontSize={{ base: "2xl", lg: "3xl" }} fontWeight={"900"}>
             É seguro?
