@@ -1,9 +1,22 @@
-import { VStack, Heading, Grid, Box, Text } from "@chakra-ui/react";
+import { VStack, Heading, Grid, Box, Text, HStack } from "@chakra-ui/react";
 import { bgImage } from "../assets";
+import { FaStar } from "react-icons/fa";
 
 const videos = [
-  { src: "?v=ef597f4c-a0bc-43b5-8b22-79c3a42cf616", id: 1 },
-  { src: "?v=5a50ea58-66ed-4d73-b6e9-d5d45541758e", id: 2 },
+  {
+    src: "?v=ef597f4c-a0bc-43b5-8b22-79c3a42cf616",
+    id: 1,
+    name: "João",
+    locale: "SP",
+    time: "10 meses",
+  },
+  {
+    src: "?v=5a50ea58-66ed-4d73-b6e9-d5d45541758e",
+    id: 2,
+    name: "Maria",
+    locale: "RJ",
+    time: "2 meses",
+  },
 ];
 
 const WhySayAboutUs: React.FC = () => {
@@ -44,15 +57,46 @@ const WhySayAboutUs: React.FC = () => {
                 flexShrink={0}
               >
                 <Box position="relative" w="100%" borderRadius={18} h="100%">
+                  <Box
+                    position={"absolute"}
+                    width={200}
+                    style={{ borderRadius: "18px", pointerEvents: "none" }}
+                    height={353}
+                    bg={
+                      "linear-gradient(180deg, #c497ff10 30%, #40006d7c 100%)"
+                    }
+                  >
+                    <VStack
+                      color="white"
+                      align={"start"}
+                      justifyContent={"flex-end"}
+                      pb={10}
+                      h={"100%"}
+                      px={6}
+                      spacing={0}
+                    >
+                      <Text fontWeight={"bold"} mb={-1}>
+                        {video.name} - {video.locale}
+                      </Text>
+                      <Text>{video.time}</Text>
+                      <HStack spacing={0.5}>
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+                      </HStack>
+                    </VStack>
+                  </Box>
                   <iframe
-                    id="panda-ef597f4c-a0bc-43b5-8b22-79c3a42cf616"
+                    id={`panda-${video.id}`}
                     src={
                       "https://player-vz-cabac419-f07.tv.pandavideo.com.br/embed/" +
                       video.src
                     }
                     width={200}
                     style={{ borderRadius: "18px" }}
-                    height={360}
+                    height={353}
                   ></iframe>
                 </Box>
               </VStack>

@@ -81,8 +81,8 @@ const HowWork: React.FC = () => {
       w={"100%"}
       overflow="hidden"
     >
-      <VStack align={"strech"} maxW={1400} mx="auto" spacing={10}>
-        <VStack align={"start"} mb={4} px={6}>
+      <VStack align={"strech"} maxW={1400} mx="auto" spacing={8}>
+        <VStack align={"start"} px={6}>
           <Heading fontSize={{ base: "2xl", lg: "3xl" }} fontWeight={"900"}>
             Como funciona?
           </Heading>
