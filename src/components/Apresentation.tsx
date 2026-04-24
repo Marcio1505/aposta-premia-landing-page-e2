@@ -5,6 +5,7 @@ import {
   coin2,
   coinCroped,
   heroDesktop,
+  heroDesktopLarge,
   heroMobile,
   heroText,
 } from "../assets";
@@ -25,7 +26,7 @@ const Apresentation: React.FC = () => {
         borderBottomRadius={30}
         mx={"auto"}
         w={"100%"}
-        pb={0}
+        pb={20}
         overflow="hidden"
       >
         <HStack maxW={1400} w={"100%"} mx={"auto"} spacing={0}>
@@ -72,6 +73,7 @@ const Apresentation: React.FC = () => {
               textAlign={"center"}
               fontWeight={"bold"}
               cursor={"pointer"}
+              w={"90%"}
               onClick={() =>
                 (window.location.href = "https://apostapremia.com.br/register")
               }
@@ -89,9 +91,14 @@ const Apresentation: React.FC = () => {
           w="100%"
           ml={"auto"}
           h="100%"
-          bgImage={{ base: `url(${heroMobile})`, md1: `url(${heroDesktop})` }}
+          bgImage={{
+            base: `url(${heroMobile})`,
+            md1: `url(${heroDesktop})`,
+            lg: `url(${heroDesktopLarge})`,
+          }}
           bgSize="cover"
-          bgPosition="start"
+          bgPosition={"start"}
+          maxH={500}
           zIndex={0}
         />
       </HStack>
@@ -141,6 +148,15 @@ const Apresentation: React.FC = () => {
         top={110}
         right={0}
         src={coin2}
+      />
+      <Image
+        position={"absolute"}
+        zIndex={1}
+        w={108}
+        mt={-16}
+        right={-3}
+        src={coin2}
+        transform={"rotate(30deg)"}
       />
     </Box>
   );

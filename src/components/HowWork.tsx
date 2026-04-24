@@ -174,7 +174,7 @@ const WiseCard: React.FC<{
 
   // Define as variantes de animação para o card
   const cardVariants = {
-    hidden: { scale: 0.8, opacity: 0.4, rotateY: 15 },
+    hidden: { scale: 1, opacity: 0.9, rotateY: 0 },
     visible: {
       scale: 1,
       opacity: 1,

@@ -32,6 +32,7 @@ export { default as cashback4 } from "./partnersLogos/multibet-logo.png";
 // Photos
 export { default as heroMobile } from "./photos/hero-mobile.png";
 export { default as heroDesktop } from "./photos/hero-desktop.png";
+export { default as heroDesktopLarge } from "./photos/hero-desktop-large.png";
 export { default as bgImage } from "./photos/bgImage.svg";
 export { default as aryanePremia } from "./photos/aryane-premia.png";
 export { default as aryanePremiaMobile } from "./photos/aryane-premia-mobile.png";

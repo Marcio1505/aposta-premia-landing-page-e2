@@ -57,8 +57,10 @@ const Header: React.FC = () => {
         <Box w={2} h={2} display={{ base: "none", md1: "flex" }} />
         <Image
           src={logoWhite}
-          ml={{ base: 2, md: 4 }}
           w={{ base: 90, md1: 105 }}
+          right={10}
+          top={4}
+          position={"absolute"}
           cursor="pointer"
           onClick={() => (window.location.href = "/")}
         />
